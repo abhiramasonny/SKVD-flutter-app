@@ -1,0 +1,28 @@
+name: my_app
+description: A Flutter app.
+
+# The following line specifies the version of the Flutter SDK that
+# your app depends on. You should always use ">=X.Y.Z <X+1.0.0" to
+# specify the highest version of the SDK that your app is compatible
+# with.
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    # Replace with the latest stable release of Flutter
+    sdk: flutter
+  
+
+  # Add the url_launcher package as a dependency
+  url_launcher: ^6.0.9
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Add assets that your app uses
+flutter:
+  assets:
+    - assets/images/
